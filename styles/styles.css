@@ -1,0 +1,74 @@
+/*RESET CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*LOGO*/
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.logo h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #0f172a
+
+}
+
+/*NAVIGATION BAR*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+}
+
+ul a{
+    text-decoration: none;
+    color: #475569;
+    font-family: 'Inter', sans-serif;
+}
+
+.whatsapp-button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    min-width: 10.5rem;
+    min-height: 2.5rem;
+    padding: 0.35rem 1rem;
+    text-decoration: none;
+    color: #334155;
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 999px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.15;
+    text-align: center;
+}
+
+.whatsapp-status{
+    width: 0.5rem;
+    height: 0.5rem;
+    flex: 0 0 0.5rem;
+    border-radius: 50%;
+    background-color: #20bd8a;
+}
