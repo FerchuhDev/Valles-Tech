@@ -16,7 +16,6 @@
     font-size: 1.3rem;
     font-weight: 700;
     color: #0f172a
-
 }
 
 /*NAVIGATION BAR*/
@@ -71,4 +70,84 @@ ul a{
     flex: 0 0 0.5rem;
     border-radius: 50%;
     background-color: #20bd8a;
+}
+
+
+/*MAIN SECTION*/
+
+.Hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    padding: 5rem 1rem;
+}
+
+.badge-superior{
+    display: grid;
+    grid-template-columns: minmax(7.5rem, 1fr) auto minmax(9rem, 1fr);
+    align-items: center;
+    width: min(100%, 23rem);
+    min-height: 2.5rem;
+    padding: 0.25rem 1rem;
+    gap: 0.8rem;
+    background-color: #ffffff;
+    border: 1px solid #dbe3ec;
+    border-radius: 999px;
+    box-shadow: 0 2px 5px rgba(15, 23, 42, 0.06);
+    color: #475569;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.65rem;
+    line-height: 1.15;
+}
+
+.badge-superior p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.badge-superior__collection{
+    color: #1689c9;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.badge-superior__collection strong{
+    font-size: 0.6rem;
+}
+
+.badge-superior__separator{
+    width: 0.25rem;
+    height: 0.25rem;
+    border-radius: 50%;
+    background-color: #cbd5e1;
+}
+
+.badge-superior__feature{
+    font-weight: 500;
+    text-align: center;
+}
+
+/*TITULO PRINCIPAL*/
+
+.Titulo-Principal h2{
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+
+    max-width: 750px;
+    padding-top: 3rem;
+}
+
+.Titulo-Principal p{
+    font-size: 1.125rem;
+    font-family: 'Inter', sans-serif;
+    color: #475569;
+
+    max-width: 750px;
+    padding-top: 1.5rem;
+    margin-bottom: 3rem;
 }
