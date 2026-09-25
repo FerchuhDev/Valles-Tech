@@ -263,3 +263,31 @@ ul a{
     font-family: 'Inter', sans-serif;
 
 }
+
+/*PRODUCTOS DESTACADOS / TITULO*/
+
+.producto-destacados{
+    display: flex;
+    flex-direction: column;
+}
+
+.producto-destacados h3{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 1rem;
+
+    font-weight: 700;
+    color:#0f172a
+}
+
+.producto-destacados p{
+    text-align:center;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color:#64748b;
+    
+    max-width: 600px;
+    margin: 0 auto;
+}
