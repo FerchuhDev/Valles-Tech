@@ -219,4 +219,47 @@ ul a{
     stroke-width: 1.75;
 }
 
-/*---------*/
+/*Separador accesorios*/
+
+.Accesorios-ProductosDestacados{
+    display:flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.accesorios-compatibles{
+     border-bottom: 1px solid #e5e7eb;
+     border-top: 1px solid #e5e7eb;
+     padding: 1rem 1rem;
+    
+}
+
+.accesorios-compatibles p{
+    font-size:0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding-top: 1rem;
+    color: #64748b;
+    font-weight: 600;
+
+    font-family: 'Inter', sans-serif;
+
+}
+
+.accesorios-compatibles__list{
+    display:flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+.accesorios-compatibles__list li{
+    list-style-type:disc;
+    color:#475569;
+    font-weight: 600;
+    font-size: 1rem;
+
+    font-family: 'Inter', sans-serif;
+
+}
