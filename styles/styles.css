@@ -322,3 +322,9 @@ ul a{
     margin-top: auto;
 }
 
+.card img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
