@@ -398,7 +398,7 @@ ul a{
 .reparacion-badge{
     display:flex;
     justify-content: center;
-    padding-top: 5.5rem;
+    padding-top: 7.5rem;
 }
 
 
@@ -433,37 +433,14 @@ ul a{
 
 .card-reparaciones{
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(3, 17.5rem);
+    justify-content: center;
     gap: 1.25rem;
     align-items: stretch;
-    padding-top: 5rem;
+    padding-top: 1rem;
     max-width: 1200px;
     margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .sub-title-reparcion{
     color: #0f172a;
@@ -471,3 +448,95 @@ ul a{
     font-size: 0.80rem;
     font-weight: 500;
 }
+
+/*REPARACIONES / ASIDE*/
+
+.reparaciones-cta{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 2.5rem auto 0;
+    padding: 1.75rem 1.875rem;
+    background-color: #ffffff;
+    border: 1px solid #e5edf5;
+    border-radius: 1rem;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.reparaciones-cta__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    flex: 0 0 2.75rem;
+    color: #0284c7;
+    background-color: #f0f9ff;
+    border-radius: 0.75rem;
+}
+
+.reparaciones-cta__copy{
+    min-width: 0;
+}
+
+.reparaciones-cta__copy h3{
+    color: #0f172a;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.reparaciones-cta__copy p{
+    margin-top: 0.2rem;
+    color: #64748b;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.reparaciones-cta__button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    min-height: 2.75rem;
+    margin-left: auto;
+    padding: 0.75rem 1.5rem;
+    flex: 0 0 auto;
+    color: #ffffff;
+    background-color: #0f172a;
+    border-radius: 0.75rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+}
+/*
+@media (max-width: 700px){
+    .reparaciones-cta{
+        margin: 2rem 1rem 0;
+        padding: 1.25rem;
+    }
+
+    .reparaciones-cta__button{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 520px){
+    .reparaciones-cta{
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr);
+    }
+
+    .reparaciones-cta__button{
+        grid-column: 1 / -1;
+        justify-self: start;
+        margin-left: 0;
+    }
+}
+*/
